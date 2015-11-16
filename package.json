@@ -1,7 +1,7 @@
 {
   "name": "karma-mocha",
   "version": "0.2.1",
-  "description": "A Karma plugin. Adapter for Mocha testing framework.",
+  "description": "A Karma plugin. Adapter for Mocha(co) testing framework.",
   "main": "lib/index.js",
   "sharedKarmaFiles": {
     "editorconfig": ".editorconfig",
@@ -22,7 +22,7 @@
   "author": "Vojta Jina <vojta.jina@gmail.com>",
   "dependencies": {},
   "devDependencies": {
-    "chai": "^3.4.1",
+    "chai": "^3.4.0",
     "eslint": "^0.22.1",
     "eslint-config-standard": "^2.0.1",
     "eslint-plugin-react": "^2.5.0",
@@ -45,7 +45,7 @@
     "sinon": "^1.17.2"
   },
   "peerDependencies": {
-    "mocha": "*"
+    "mocha-co": "*"
   },
   "license": "MIT",
   "contributors": [
